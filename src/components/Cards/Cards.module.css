@@ -1,5 +1,4 @@
-Cards.module.css Earlier this week Dec 30,
-2020 Guy Sarkinskiy uploaded an item Style Sheet Cards.module.css .container {
+.container {
   margin: 50px 0;
 }
 
@@ -17,4 +16,9 @@ Cards.module.css Earlier this week Dec 30,
 
 .deaths {
   border-bottom: 10px solid rgba(250, 0, 0, 0.5);
+}
+@media (max-width: 770px) {
+  .card {
+    margin: 2% 0 !important;
+  }
 }
